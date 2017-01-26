@@ -3,32 +3,19 @@ Quickly setup a static server
 
 ## 0. Requirements:
 
-### If you don't have Python 3.6
+### To install Python 3.6, nginx, and virtualenv
 
-Ubuntu 16.04:
+If on Ubuntu 16.04:
 
 ```
 sudo add-apt-repository ppa:jonathonf/python-3.6
+```
+
+Then if on Ubuntu 16.10 or 16.04:
+
+```
 sudo apt-get update
-sudo apt-get install python3.6
-```
-
-Ubuntu 16.10:
-
-```
-sudo apt install python3.6
-```
-
-### If you don't have nginx
-
-```
-sudo apt install nginx
-```
-
-### If you don't have virtualenv
-
-```
-sudo apt install virtualenv
+sudo apt install python3.6 nginx virtualenv;
 ```
 
 ## 1. A server to host your static files
