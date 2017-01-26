@@ -9,5 +9,5 @@ def index():
  
  print(f'Starting static flask service, on port {port}')
 
- app.run(debug=True, host='0.0.0.0', port=4847, threaded=True)
+ app.run(debug=True, host='0.0.0.0', port=port, threaded=True)
  
